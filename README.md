@@ -18,25 +18,25 @@ ASP.NET Core MVC ile geliştirilmiş, ürün ekleme, güncelleme, silme ve stok 
 ## Ekran Görüntüleri
 
 ### Anasayfa
-![Anasayfa](images/anasayfa.png)
+![Anasayfa](img/anasayfa.png)
 
 ### Ürün Ekleme
-![Ürün Ekleme](images/urunekleme.png)
+![Ürün Ekleme](img/urunekleme.png)
 
 ### Ürün Güncelleme
-![Ürün Güncelleme](images/urunguncelleme.png)
+![Ürün Güncelleme](img/urunguncelleme.png)
 
 ### Tüm Ürünler Tablosu
-![Tüm Ürünler](images/tumurunler.png)
+![Tüm Ürünler](img/tumurunler.png)
 
 ### Responsive Tasarım
-![Responsive](images/responsive.png)
+![Responsive](img/responsive.png)
 
 ### Veritabanı Yapısı
-![Veritabanı](images/veritabani.png)
+![Veritabanı](img/veritabani.png)
 
 ### Onay Mesajı
-![Onay Mesajı](images/onaymesaji.png)
+![Onay Mesajı](img/onaymesaji.png)
 
 ---
 
