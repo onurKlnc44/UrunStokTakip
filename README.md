@@ -18,7 +18,7 @@ ASP.NET Core MVC ile geliştirilmiş, ürün ekleme, güncelleme, silme ve stok 
 ## Ekran Görüntüleri
 
 ### Anasayfa
-![Anasayfa](img/anasayfa.png)
+![Anasayfa](img/Anasayfa.png)
 
 ### Ürün Ekleme
 ![Ürün Ekleme](img/urunekleme.png)
