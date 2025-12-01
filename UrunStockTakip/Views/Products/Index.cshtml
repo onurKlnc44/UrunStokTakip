@@ -1,0 +1,212 @@
+﻿@model IEnumerable<UrunStokTakip.Models.Product>
+
+@{
+    ViewData["Title"] = "Ürünler";
+}
+
+<style>
+    .page-title {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #1f2937;
+    }
+
+    .card-table {
+        background: white;
+        border-radius: 14px;
+        padding: 20px;
+        box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+        border: 1px solid #e5e7eb;
+    }
+
+    table thead tr {
+        background: #1f2937;
+        color: white;
+        letter-spacing: .4px;
+    }
+
+    table tbody tr:hover {
+        background: #f3f4f6 !important;
+        transition: .2s;
+    }
+
+    .btn-add {
+        padding: 10px 20px;
+        font-size: 1rem;
+        border-radius: 50px;
+        font-weight: 600;
+    }
+
+    .btn-edit,
+    .btn-delete {
+        font-size: .85rem;
+        padding: 6px 10px;
+        border-radius: 8px;
+    }
+
+    /* ---- Masaüstü / Mobil Buton Ayrımı ---- */
+    .desktop-actions {
+        display: inline-flex;
+        gap: 8px;
+    }
+
+    .mobile-actions {
+        display: none;
+    }
+
+    /* ---- Mobil görünüm ---- */
+    @@media (max-width: 576px) {
+        /* Masaüstü butonlarını gizle */
+        .desktop-actions
+
+    {
+        display: none !important;
+    }
+
+    /* Mobil işlem menüsünü göster */
+    .mobile-actions {
+        display: inline-block !important;
+        width: 100%;
+        text-align: center;
+    }
+
+    .action-menu {
+        width: 100%;
+        font-size: .80rem;
+        padding: 6px 10px;
+        border-radius: 8px;
+    }
+
+    td.text-center {
+        text-align: center !important;
+    }
+
+    }
+
+    .stock-low {
+        background: #dc2626;
+    }
+
+    .stock-ok {
+        background: #2563eb;
+    }
+</style>
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2 class="page-title">📦 Ürün Listesi</h2>
+
+    <a class="btn btn-success btn-add" asp-controller="Products" asp-action="Create">
+        ➕ Yeni Ürün Ekle
+    </a>
+</div>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show shadow-sm mb-4" role="alert">
+        <strong>✔ Başarılı:</strong> @TempData["SuccessMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+}
+
+<div class="card-table table-responsive">
+    <table class="table align-middle table-hover">
+        <thead>
+            <tr>
+                <th style="width:5%">Id</th>
+                <th style="width:35%">Ürün Adı</th>
+                <th style="width:15%">Stok</th>
+                <th style="width:15%">Fiyat</th>
+                <th style="width:30%" class="text-center">İşlemler</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+
+                    <td class="fw-semibold">@item.Name</td>
+
+                    <td>
+                        @if (item.Stock <= 5)
+                        {
+                            <span class="badge stock-low px-3 py-2">@item.Stock</span>
+                        }
+                        else
+                        {
+                            <span class="badge stock-ok px-3 py-2">@item.Stock</span>
+                        }
+                    </td>
+
+                    <td>@item.Price.ToString("C")</td>
+
+                    <td class="text-center">
+
+                        <div class="action-wrapper">
+
+                            <!-- MASAÜSTÜ BUTONLARI -->
+                            <div class="desktop-actions">
+                                <a asp-controller="Products"
+                                   asp-action="Edit"
+                                   asp-route-id="@item.Id"
+                                   class="btn btn-primary btn-edit">
+                                    ✏ Düzenle
+                                </a>
+
+                                <form asp-controller="Products"
+                                      asp-action="Delete"
+                                      asp-route-id="@item.Id"
+                                      method="post"
+                                      class="d-inline">
+                                    <button type="submit"
+                                            class="btn btn-danger btn-delete"
+                                            onclick="return confirm('Bu ürünü silmek istediğine emin misin?');">
+                                        🗑 Sil
+                                    </button>
+                                </form>
+                            </div>
+
+                            <!-- MOBİL DROPDOWN MENÜ -->
+                            <div class="mobile-actions dropdown">
+                                <button class="btn btn-secondary dropdown-toggle action-menu"
+                                        type="button"
+                                        data-bs-toggle="dropdown">
+                                    ⋮ İşlemler
+                                </button>
+
+                                <ul class="dropdown-menu w-100">
+
+                                    <li>
+                                        <a class="dropdown-item"
+                                           asp-controller="Products"
+                                           asp-action="Edit"
+                                           asp-route-id="@item.Id">
+                                            ✏ Düzenle
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <form asp-controller="Products"
+                                              asp-action="Delete"
+                                              asp-route-id="@item.Id"
+                                              method="post">
+                                            <button type="submit"
+                                                    class="dropdown-item text-danger"
+                                                    onclick="return confirm('Bu ürünü silmek istediğine emin misin?');">
+                                                🗑 Sil
+                                            </button>
+                                        </form>
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                        </div>
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

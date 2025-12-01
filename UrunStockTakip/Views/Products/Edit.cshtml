@@ -1,0 +1,91 @@
+﻿@model UrunStokTakip.Models.Product
+
+@{
+    ViewData["Title"] = "Ürün Düzenle";
+}
+
+<style>
+    .page-title {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #1f2937;
+    }
+
+    .form-card {
+        background: #ffffff;
+        padding: 30px;
+        border-radius: 14px;
+        max-width: 600px;
+        margin: auto;
+        margin-top: 30px;
+        box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+        border: 1px solid #e5e7eb;
+    }
+
+    .form-label {
+        font-weight: 600;
+        color: #374151;
+    }
+
+    .form-control {
+        padding: 12px;
+        border-radius: 10px;
+        border: 1px solid #d1d5db;
+    }
+
+        .form-control:focus {
+            border-color: #2563eb;
+            box-shadow: 0 0 4px rgba(37,99,235,0.4);
+        }
+
+    .btn-save {
+        padding: 12px 22px;
+        font-size: 1rem;
+        border-radius: 50px;
+        font-weight: 600;
+    }
+
+    .btn-cancel {
+        padding: 12px 22px;
+        font-size: 1rem;
+        border-radius: 50px;
+        font-weight: 600;
+    }
+</style>
+
+<h2 class="page-title text-center mt-3">✏ Ürün Düzenle</h2>
+
+<div class="form-card">
+
+    <form asp-action="Edit" method="post">
+        <input type="hidden" asp-for="Id" />
+
+        <div class="mb-3">
+            <label asp-for="Name" class="form-label">Ürün Adı</label>
+            <input asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Stock" class="form-label">Stok</label>
+            <input asp-for="Stock" class="form-control" />
+            <span asp-validation-for="Stock" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Price" class="form-label">Fiyat</label>
+            <input asp-for="Price" class="form-control" />
+            <span asp-validation-for="Price" class="text-danger"></span>
+        </div>
+
+        <div class="mt-4 d-flex justify-content-between">
+            <button type="submit" class="btn btn-primary btn-save">✔ Kaydet</button>
+            <a class="btn btn-secondary btn-cancel" asp-controller="Products" asp-action="Index">İptal</a>
+        </div>
+    </form>
+
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

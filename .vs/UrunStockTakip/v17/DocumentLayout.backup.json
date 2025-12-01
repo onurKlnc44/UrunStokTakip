@@ -1,0 +1,213 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Onurb\\source\\repos\\UrunStockTakip\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{017C23B0-5B4E-4C8B-9DE1-8C8AD52346D2}|UrunStockTakip\\UrunStockTakip.csproj|c:\\users\\onurb\\source\\repos\\urunstocktakip\\urunstocktakip\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{017C23B0-5B4E-4C8B-9DE1-8C8AD52346D2}|UrunStockTakip\\UrunStockTakip.csproj|solutionrelative:urunstocktakip\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{017C23B0-5B4E-4C8B-9DE1-8C8AD52346D2}|UrunStockTakip\\UrunStockTakip.csproj|c:\\users\\onurb\\source\\repos\\urunstocktakip\\urunstocktakip\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{017C23B0-5B4E-4C8B-9DE1-8C8AD52346D2}|UrunStockTakip\\UrunStockTakip.csproj|solutionrelative:urunstocktakip\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{017C23B0-5B4E-4C8B-9DE1-8C8AD52346D2}|UrunStockTakip\\UrunStockTakip.csproj|c:\\users\\onurb\\source\\repos\\urunstocktakip\\urunstocktakip\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{017C23B0-5B4E-4C8B-9DE1-8C8AD52346D2}|UrunStockTakip\\UrunStockTakip.csproj|solutionrelative:urunstocktakip\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{017C23B0-5B4E-4C8B-9DE1-8C8AD52346D2}|UrunStockTakip\\UrunStockTakip.csproj|c:\\users\\onurb\\source\\repos\\urunstocktakip\\urunstocktakip\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{017C23B0-5B4E-4C8B-9DE1-8C8AD52346D2}|UrunStockTakip\\UrunStockTakip.csproj|solutionrelative:urunstocktakip\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{017C23B0-5B4E-4C8B-9DE1-8C8AD52346D2}|UrunStockTakip\\UrunStockTakip.csproj|c:\\users\\onurb\\source\\repos\\urunstocktakip\\urunstocktakip\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{017C23B0-5B4E-4C8B-9DE1-8C8AD52346D2}|UrunStockTakip\\UrunStockTakip.csproj|solutionrelative:urunstocktakip\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{017C23B0-5B4E-4C8B-9DE1-8C8AD52346D2}|UrunStockTakip\\UrunStockTakip.csproj|c:\\users\\onurb\\source\\repos\\urunstocktakip\\urunstocktakip\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{017C23B0-5B4E-4C8B-9DE1-8C8AD52346D2}|UrunStockTakip\\UrunStockTakip.csproj|solutionrelative:urunstocktakip\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{017C23B0-5B4E-4C8B-9DE1-8C8AD52346D2}|UrunStockTakip\\UrunStockTakip.csproj|c:\\users\\onurb\\source\\repos\\urunstocktakip\\urunstocktakip\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{017C23B0-5B4E-4C8B-9DE1-8C8AD52346D2}|UrunStockTakip\\UrunStockTakip.csproj|solutionrelative:urunstocktakip\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{017C23B0-5B4E-4C8B-9DE1-8C8AD52346D2}|UrunStockTakip\\UrunStockTakip.csproj|c:\\users\\onurb\\source\\repos\\urunstocktakip\\urunstocktakip\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{017C23B0-5B4E-4C8B-9DE1-8C8AD52346D2}|UrunStockTakip\\UrunStockTakip.csproj|solutionrelative:urunstocktakip\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{017C23B0-5B4E-4C8B-9DE1-8C8AD52346D2}|UrunStockTakip\\UrunStockTakip.csproj|c:\\users\\onurb\\source\\repos\\urunstocktakip\\urunstocktakip\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{017C23B0-5B4E-4C8B-9DE1-8C8AD52346D2}|UrunStockTakip\\UrunStockTakip.csproj|solutionrelative:urunstocktakip\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{017C23B0-5B4E-4C8B-9DE1-8C8AD52346D2}|UrunStockTakip\\UrunStockTakip.csproj|c:\\users\\onurb\\source\\repos\\urunstocktakip\\urunstocktakip\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{017C23B0-5B4E-4C8B-9DE1-8C8AD52346D2}|UrunStockTakip\\UrunStockTakip.csproj|solutionrelative:urunstocktakip\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{017C23B0-5B4E-4C8B-9DE1-8C8AD52346D2}|UrunStockTakip\\UrunStockTakip.csproj|c:\\users\\onurb\\source\\repos\\urunstocktakip\\urunstocktakip\\urunstocktakip.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{017C23B0-5B4E-4C8B-9DE1-8C8AD52346D2}|UrunStockTakip\\UrunStockTakip.csproj|solutionrelative:urunstocktakip\\urunstocktakip.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{017C23B0-5B4E-4C8B-9DE1-8C8AD52346D2}|UrunStockTakip\\UrunStockTakip.csproj|c:\\users\\onurb\\source\\repos\\urunstocktakip\\urunstocktakip\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{017C23B0-5B4E-4C8B-9DE1-8C8AD52346D2}|UrunStockTakip\\UrunStockTakip.csproj|solutionrelative:urunstocktakip\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Onurb\\source\\repos\\UrunStockTakip\\UrunStockTakip\\Views\\Products\\Edit.cshtml",
+              "RelativeDocumentMoniker": "UrunStockTakip\\Views\\Products\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Onurb\\source\\repos\\UrunStockTakip\\UrunStockTakip\\Views\\Products\\Edit.cshtml",
+              "RelativeToolTip": "UrunStockTakip\\Views\\Products\\Edit.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-25T21:10:19.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Onurb\\source\\repos\\UrunStockTakip\\UrunStockTakip\\Views\\Products\\Create.cshtml",
+              "RelativeDocumentMoniker": "UrunStockTakip\\Views\\Products\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Onurb\\source\\repos\\UrunStockTakip\\UrunStockTakip\\Views\\Products\\Create.cshtml",
+              "RelativeToolTip": "UrunStockTakip\\Views\\Products\\Create.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-25T21:10:04.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Onurb\\source\\repos\\UrunStockTakip\\UrunStockTakip\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "UrunStockTakip\\Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Onurb\\source\\repos\\UrunStockTakip\\UrunStockTakip\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "UrunStockTakip\\Views\\Products\\Index.cshtml",
+              "ViewState": "AgIAAI4AAAAAAAAAAADwv58AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-25T20:54:30.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Onurb\\source\\repos\\UrunStockTakip\\UrunStockTakip\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "UrunStockTakip\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Onurb\\source\\repos\\UrunStockTakip\\UrunStockTakip\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "UrunStockTakip\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACwAAAAAAAAAAADwv0sAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-25T20:52:47.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Onurb\\source\\repos\\UrunStockTakip\\UrunStockTakip\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "UrunStockTakip\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Onurb\\source\\repos\\UrunStockTakip\\UrunStockTakip\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "UrunStockTakip\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-25T20:49:14.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Onurb\\source\\repos\\UrunStockTakip\\UrunStockTakip\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "UrunStockTakip\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Onurb\\source\\repos\\UrunStockTakip\\UrunStockTakip\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "UrunStockTakip\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T20:48:10.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Onurb\\source\\repos\\UrunStockTakip\\UrunStockTakip\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "UrunStockTakip\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Onurb\\source\\repos\\UrunStockTakip\\UrunStockTakip\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "UrunStockTakip\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T20:48:07.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Onurb\\source\\repos\\UrunStockTakip\\UrunStockTakip\\Program.cs",
+              "RelativeDocumentMoniker": "UrunStockTakip\\Program.cs",
+              "ToolTip": "C:\\Users\\Onurb\\source\\repos\\UrunStockTakip\\UrunStockTakip\\Program.cs",
+              "RelativeToolTip": "UrunStockTakip\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T20:52:11.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Onurb\\source\\repos\\UrunStockTakip\\UrunStockTakip\\data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "UrunStockTakip\\data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Onurb\\source\\repos\\UrunStockTakip\\UrunStockTakip\\data\\AppDbContext.cs",
+              "RelativeToolTip": "UrunStockTakip\\data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T20:52:01.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UrunStockTakip.csproj",
+              "DocumentMoniker": "C:\\Users\\Onurb\\source\\repos\\UrunStockTakip\\UrunStockTakip\\UrunStockTakip.csproj",
+              "RelativeDocumentMoniker": "UrunStockTakip\\UrunStockTakip.csproj",
+              "ToolTip": "C:\\Users\\Onurb\\source\\repos\\UrunStockTakip\\UrunStockTakip\\UrunStockTakip.csproj",
+              "RelativeToolTip": "UrunStockTakip\\UrunStockTakip.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-24T20:51:50.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Onurb\\source\\repos\\UrunStockTakip\\UrunStockTakip\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "UrunStockTakip\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Onurb\\source\\repos\\UrunStockTakip\\UrunStockTakip\\Models\\Product.cs",
+              "RelativeToolTip": "UrunStockTakip\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T20:50:51.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Onurb\\source\\repos\\UrunStockTakip\\UrunStockTakip\\appsettings.json",
+              "RelativeDocumentMoniker": "UrunStockTakip\\appsettings.json",
+              "ToolTip": "C:\\Users\\Onurb\\source\\repos\\UrunStockTakip\\UrunStockTakip\\appsettings.json",
+              "RelativeToolTip": "UrunStockTakip\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-24T20:47:43.608Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
